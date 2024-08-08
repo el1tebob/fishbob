@@ -4,8 +4,8 @@ let intervalId;
 document.getElementById('fishing').addEventListener('click', () => {
     if (!intervalId) {
         intervalId = setInterval(() => {
-            count++;
-            document.getElementById('fish1').textContent = count;
+            fish1++;
+            document.getElementById('fish1').textContent = fish1;
         }, 1000);
     }
 });
